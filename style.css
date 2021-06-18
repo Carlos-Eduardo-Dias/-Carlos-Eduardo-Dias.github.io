@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(5, 35, 117, 0.973);
+}
+
+#container {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#titulo {
+    text-align: center;
+}
+
+#lista {
+    padding: 0;
+}
+
+#btnEditar {
+    font-size: small;
+    vertical-align: text-top;
+    cursor: pointer;
+}
+
+#lista li {
+    padding: 3px;
+    font-size: larger;
+    border: solid 1px rgb(230, 215, 14);
+    list-style-type: none;
+    margin: -1px 0 0 -1px;
+}
+
+#lista li:hover {
+    font-weight: bold;
+}
